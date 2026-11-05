@@ -1,5 +1,5 @@
 // Frågor: ämnen 1-3. Format: [fråga, [alternativ], index för rätt svar, förklaring]
-window.TOPICS=(window.TOPICS||[]).concat([
+addTopics("pl55",[
 {t:"Projekt, mål och SMART",q:[
 ["Vad skiljer ett projekt från löpande verksamhet?",["Projektet saknar tydligt slut","Projektet har ett mål, ett slut och skapar en förändring","Projektet har obegränsade resurser","Projektet är alltid agilt"],1,"Löpande verksamhet saknar tydligt slut. Ett projekt har mål, slut och skapar förändring."],
 ["Vad står RUTA för?",["Roller, Utförande, Teknik, Ansvar","Risker, Uppdrag, Tid, Aktiviteter","Resurser, Unikt, Tidsatt, Arbetsformer","Resultat, Utvärdering, Tidsplan, Avslut"],2,"RUTA hjälper oss avgöra om något faktiskt är ett projekt."],

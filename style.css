@@ -141,7 +141,7 @@ h1:focus, #feedback p:focus { outline: none; }
 .bubble-small { width: 2.4rem; bottom: 1.6rem; right: 13rem; }
 
 .library { margin-top: 1.85rem; }
-.library > h2 { margin: 0 0 .65rem .15rem; }
+.library > h2, #topics-heading { margin: 0 0 .65rem .15rem; }
 
 .topic-list { overflow: hidden; }
 
@@ -154,6 +154,9 @@ h1:focus, #feedback p:focus { outline: none; }
 }
 
 .topic + .topic { border-top: 1px solid #24618e24; }
+
+.course { grid-template-columns: minmax(0, 1fr) auto; }
+.course-detail { margin-top: .35rem; font-size: .9rem; }
 
 .topic-number {
   display: grid;
@@ -263,6 +266,7 @@ button.primary:disabled {
 .screen-header p { margin-top: .3rem; font-size: 1.12rem; font-weight: 550; }
 
 .panel { padding: 1.5rem; }
+.daily-review { margin-bottom: 1.5rem; }
 .panel h2 + p { margin-top: .65rem; }
 .panel > .progress-labels { margin: 1rem 0; }
 .panel > button, .panel .action-row { margin-top: 1rem; }
@@ -354,6 +358,8 @@ progress::-moz-progress-bar { background: #1b719e; border-radius: 2rem; }
   .topic { grid-template-columns: auto minmax(0, 1fr); gap: .75rem; padding: .95rem; }
   .topic-actions { grid-column: 2; }
   .topic-actions button { flex: 1; }
+  .course { grid-template-columns: 1fr; }
+  .course .topic-actions { grid-column: 1; }
 }
 
 @media (max-width: 26rem) {
